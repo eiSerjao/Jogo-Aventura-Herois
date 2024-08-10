@@ -9,21 +9,21 @@ class heroi{
     if(this.tipo === "Mago"){
       console.log(`${this.nome} o ${this.tipo} no ataque usou magia!`)
     } else if(this.tipo === "Guerreiro"){
-      console.log(`${this.nome} o ${this.tipo} no ataque usou a Espada!`)
+      console.log(`${this.nome} o ${this.tipo} no ataque usou a espada!`)
     } else if(this.tipo === "Monje"){
       console.log(`${this.nome} o ${this.tipo} no ataque usou artes marciais!`)
     } else if(this.tipo === "Ninja"){
-      console.log(`${this.nome} no ataque usou Shurikens!`)
+      console.log(`${this.nome} no ataque usou shurikens!`)
     }
   }
 }
 
-let Caio = new heroi("Caio", 18, "Mago")
-let LeoDicaprio = new heroi("LeoDicaprio", 25, "Guerreiro")
-let Joao = new heroi("João", 18, "Monje")
-let Paulo = new heroi("Paulo", 21, "Ninja")
+let caio = new heroi("Caio", 18, "Mago")
+let leoDicaprio = new heroi("LeoDicaprio", 25, "Guerreiro")
+let joao = new heroi("João", 18, "Monje")
+let paulo = new heroi("Paulo", 21, "Ninja")
 
-Caio.atacar()
-LeoDicaprio.atacar()
-Joao.atacar()
-Paulo.atacar()
+caio.atacar()
+leoDicaprio.atacar()
+joao.atacar()
+paulo.atacar()
